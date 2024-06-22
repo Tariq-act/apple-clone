@@ -5,9 +5,9 @@ import { pauseImg, playImg, replayImg } from '../utils';
 import { useGSAP } from '@gsap/react';
 
 const VideoCarousel = () => {
-  const videoRef = useRef([]);
-  const videoSpanRef = useRef([]);
-  const videoDivRef = useRef([]);
+  const videoRef = useRef([]); // refer the array of video
+  const videoSpanRef = useRef([]); // span element to refer progress bar
+  const videoDivRef = useRef([]); // refer to container for progress bar
 
   const [video, setVideo] = useState({
     isEnd: false,
