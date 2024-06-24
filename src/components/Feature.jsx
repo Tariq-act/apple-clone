@@ -6,7 +6,6 @@ import gsap from 'gsap';
 
 const Features = () => {
   const videoRef = useRef();
-  // testing
 
   useGSAP(() => {
     gsap.to('#exploreVideo', {
